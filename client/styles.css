@@ -96,5 +96,9 @@ button {
         overflow: auto;
         height: auto;
     }
+
+    #email-address {
+        font-size: 25px;
+    }
 }
 

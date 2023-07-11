@@ -7,7 +7,7 @@
     let email = `tdsmith201${7 + 1}@gmail.com`;
     contactForm.insertAdjacentHTML(
       "beforeend",
-      `<p><a href="mailto:${email}">${email}</a></p>`
+      `<p id="email-address"><a href="mailto:${email}">${email}</a></p>`
     );
   });
 })();
